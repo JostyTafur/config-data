@@ -16,8 +16,6 @@ spring:
 #    database-platform: org.hibernate.dialect.MySQL8Dialect
 
 eureka:
-  instance:
-    hostname: microservice-eureka
     client:
       service-url:
         defaultZone: http://microservice-eureka:8761/eureka/
