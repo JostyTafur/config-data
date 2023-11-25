@@ -16,11 +16,9 @@ spring:
 #    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 eureka:
-  instance:
-    hostname: microservice-eureka
     client:
       service-url:
-        defaultZone: http://${eureka.instance.hostname}:8761
+        defaultZone: http://microservice-eureka:8761/eureka/
 
 springdoc:
   swagger-ui:
