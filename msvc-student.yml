@@ -20,7 +20,7 @@ eureka:
     hostname: microservice-eureka
     client:
       service-url:
-        defaultZone: http://microservice-eureka:8761
+        defaultZone: http://microservice-eureka:8761/eureka/
 
 springdoc:
   swagger-ui:
